@@ -6,12 +6,11 @@
    This document describes the team ROBIT's hardware and software for 2017 R-Biz challenge Turtlebot3 autonomous race.
    
    - robit_master: Manage the entire used packages and nodes.
-   
    - turtlevision: Process the vision data.
-   
    - turtlebot3_tunnel: Contain the mapping and path planning by LiDAR sensor in the tunnel mission.
-   
    - turtlebot3_core: Modified firmware for turtlebot3 autonomous race.
+   - capture: turtlevision UI capture.
+   - sample_video: Sample video.
    
   ## Hardware platform
   <img src="https://raw.githubusercontent.com/ROBOTIS-GIT/ROBOTIS-Documents/master/wiki-images/Turtlebot3/Turtlebot3_logo.jpg" width="300">
