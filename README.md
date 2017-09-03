@@ -73,11 +73,11 @@
       $ rosrun turtlevision turtlevision
   
   ## Run turtlebot3 tunnel node
-    Bring up basic packages to start TurtleBot3 applications.
+    Bring up basic packages to start TurtleBot3 applications.
     
         $ roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
-    If you want to launch Lidar sensor and core separately, please use below commands.
+    If you want to launch Lidar sensor and core separately, please use below commands.
         
         $ roslaunch turtlebot3_bringup turtlebot3_lidar.launch
         $ roslaunch turtlebot3_bringup turtlebot3_core.launch
