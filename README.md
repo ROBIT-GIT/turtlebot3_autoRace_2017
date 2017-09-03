@@ -35,11 +35,12 @@
   We use ROS usb_cam package. Install the kinetic usb_cam package. 
   Reference link: http://wiki.ros.org/usb_cam
   
-    $ sudo apt-get install ros-kinetic-usb-cam
+       $ sudo apt-get install ros-kinetic-usb-cam
   
   You should edit launch file. 
-    $ cd /opt/ros/kinetic/share/usb_cam/launch/
-    $ sudo gedit usb_cam-test.launch 
+  
+      $ cd /opt/ros/kinetic/share/usb_cam/launch/
+      $ sudo gedit usb_cam-test.launch 
     
   Fill in this contents:
     
