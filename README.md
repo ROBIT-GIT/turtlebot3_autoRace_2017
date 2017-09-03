@@ -5,7 +5,7 @@
   ## turtlebot3_autoRace
 
   ## Overview
-    This document describes the team ROBIT hardware and software setting for 2017 R-Biz challenge Turtlebot3 autonomous race.
+   This document describes the team ROBIT hardware and software setting for 2017 R-Biz challenge Turtlebot3 autonomous race.
 
 
 # User's Guide
