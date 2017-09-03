@@ -66,7 +66,7 @@
         </node>
       </launch>
   
-  Execute usb_cam node.
+  Execute usb_cam node after "catkin_make".
    
       $ roslaunch usb_cam usb_cam-test.launch 
     
