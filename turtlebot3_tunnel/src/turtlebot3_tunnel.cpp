@@ -15,7 +15,7 @@
 *******************************************************************************/
 
 /* Authors: Taehoon Lim (Darby) */
-/* Adjusted by Team ROBIT */
+/* Maintainer : Youngjoon Jang */
 
 
 #include "turtlebot3_tunnel/turtlebot3_tunnel.h"

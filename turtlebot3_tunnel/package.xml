@@ -8,10 +8,9 @@
   <license>Apache License 2.0</license>
   <author email="pyo@robotis.com">Pyo</author>
   <author email="thlim@robotis.com">Darby Lim</author>
-  <maintainer email="pyo@robotis.com">Pyo</maintainer>
-  <url type="bugtracker">https://github.com/ROBOTIS-GIT/turtlebot3_simulations/issues</url>
-  <url type="repository">https://github.com/ROBOTIS-GIT/turtlebot3_simulations</url>
-  <url type="website">http://turtlebot3.robotis.com</url>
+  <maintainer email="wgs010888@gmail.com">Jang Youngjoon</maintainer>
+  <url type="repository">https://github.com/ROBIT-GIT/turtlebot3_autoRace_2017.git</url>
+
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>nav_msgs</build_depend>
   <build_depend>roscpp</build_depend>
