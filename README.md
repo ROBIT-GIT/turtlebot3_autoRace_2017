@@ -19,7 +19,7 @@
   Turtlebot3 Wiki: [turtlebot3 official wiki](http://turtlebot3.readthedocs.io/en/latest/)
   
   ## Setting the permission
-  You should set the permission of some devices
+  You should set the permission of some devices.
   To set commands are:
     
       $ sudo chmod 777 /dev/video0
@@ -64,16 +64,16 @@
         </node>
       </launch>
   
-  Execute usb_cam node
+  Execute usb_cam node.
    
       $ roslaunch usb_cam usb_cam-test.launch 
     
-  Execute turtlevision node  
+  Execute turtlevision node.  
   
       $ rosrun turtlevision turtlevision
   
   ## Run turtlebot3 tunnel node
-    Bring up basic packages to start TurtleBot3 applications.
+   Bring up basic packages to start TurtleBot3 applications.
     
         $ roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
@@ -82,6 +82,6 @@
         $ roslaunch turtlebot3_bringup turtlebot3_lidar.launch
         $ roslaunch turtlebot3_bringup turtlebot3_core.launch
         
-   Execute turtlebot3 tunnel node
+   Execute turtlebot3 tunnel node.
     
         $ roslaunch turtlebot3_tunnel turtlebot3_tunnel.launch
