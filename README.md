@@ -77,11 +77,11 @@
     
         $ roslaunch turtlebot3_bringup turtlebot3_robot.launch
 
-    If you want to launch Lidar sensor and core separately, please use below commands.
+   If you want to launch Lidar sensor and core separately, please use below commands.
         
         $ roslaunch turtlebot3_bringup turtlebot3_lidar.launch
         $ roslaunch turtlebot3_bringup turtlebot3_core.launch
         
-    Execute turtlebot3 tunnel node
+   Execute turtlebot3 tunnel node
     
         $ roslaunch turtlebot3_tunnel turtlebot3_tunnel.launch
