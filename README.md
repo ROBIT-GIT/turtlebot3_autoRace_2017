@@ -16,7 +16,11 @@
    
 
 # User's Guide
-
+  ## Setup
+  You should setup the default setting about the turtlebot3.
+  Refer the turtlebot3 official wiki and follow the official manual.
+  Turtlebot3 Wiki: [turtlebot3 official wiki](http://turtlebot3.readthedocs.io/en/latest/)
+  
   ## Setting the permission
   You should set the permission of some devices
   To set commands are:
