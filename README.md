@@ -3,7 +3,7 @@
   The Team ROBIT is a robot team of Kwangwoon University in Seoul, Republic of Korea. Team ROBIT has been established in November 2006. We have studied hardware and software of robot system. We also has participated in several domestic and international robot competitions. 
 
   ## Overview
-   This document describes the team ROBIT hardware and software setting for 2017 R-Biz challenge Turtlebot3 autonomous race.
+   This document describes the team ROBIT's hardware and software for 2017 R-Biz challenge Turtlebot3 autonomous race.
   ## Hardware platform
   <img src="https://raw.githubusercontent.com/ROBOTIS-GIT/ROBOTIS-Documents/master/wiki-images/Turtlebot3/Turtlebot3_logo.jpg" width="300">
   Turtlebot3: [turtlebot3 official wiki](http://turtlebot3.readthedocs.io/en/latest/)
@@ -14,7 +14,6 @@
    <img src="http://shop1.phinf.naver.net/20170511_41/nmp_1494490738679tqETF_JPEG/11494418960286917_722889021.jpg" width="300">
    PC : NUC7i5BNK (RAM 4GB)
    
-
 # User's Guide
   ## Setting the default setting about turtlebot3
   You should set the default setting about the turtlebot3.
