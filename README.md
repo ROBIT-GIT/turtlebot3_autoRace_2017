@@ -17,9 +17,9 @@
   
   - Turtlebot3: [turtlebot3 official wiki](http://turtlebot3.readthedocs.io/en/latest/)
 
-  - Usb camera: Logitech Webcam HD Pro C920
+  - Usb camera: Logitech Webcam HD Pro C920
   
-  - PC : Intel NUC7i5BNK (RAM 4GB)
+  - PC: Intel NUC7i5BNK (RAM 4GB)
    
 # User's Guide
   ## Setting the default setting about turtlebot3
