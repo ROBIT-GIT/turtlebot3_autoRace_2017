@@ -3,11 +3,12 @@
   <name>robit_master</name>
   <version>0.0.0</version>
   <description>The robit_master package</description>
-  <maintainer email="pchansik573@gmail.com">Park Chansik</maintainer>
 
-  <license> Apache License 2.0 </license>
+  <author email="pchansik573@gmail.com">Park chansik</author>
+  <maintainer email="wgs010888@gmail.com">Jang Youngjoon</maintainer>
 
-  <author email="pchansik573@gmail.com">Park Chansik</author>
+  <license>Apache License 2.0</license>
+  <url type="repository">https://github.com/ROBIT-GIT/turtlebot3_autoRace_2017.git</url>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>roscpp</build_depend>
