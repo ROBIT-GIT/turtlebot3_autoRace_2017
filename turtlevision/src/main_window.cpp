@@ -1388,7 +1388,7 @@ void MainWindow::on_horizontalSlider_val_max_valueChanged(int value)
 
 void MainWindow::on_pushButton_save_parameter_clicked()
 {
-  ofstream fout_default_color("/home/turtle1/catkin_ws/src/turtlebot/turtlevision/parameter_file/default_color.txt");
+  ofstream fout_default_color("/home/turtle1/catkin_ws/src/turtlevision/parameter_file/default_color.txt");
   if(fout_default_color.is_open())
   {
     fout_default_color      <<      in_line_hue_min             << endl
@@ -1693,7 +1693,7 @@ void MainWindow::on_checkBox_tunnel_mark_toggled(bool checked)
 
 void MainWindow::get_parameter()
 {
-  ifstream fin_default_color("/home/turtle1/catkin_ws/src/turtlebot/turtlevision/parameter_file/default_color.txt");
+  ifstream fin_default_color("/home/turtle1/catkin_ws/src/turtlevision/parameter_file/default_color.txt");
 
   if(fin_default_color.is_open())
   {
