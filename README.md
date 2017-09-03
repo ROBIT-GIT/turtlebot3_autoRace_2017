@@ -18,6 +18,8 @@
   Refer the turtlebot3 official wiki and follow the official manual.
   Turtlebot3 Wiki: [turtlebot3 official wiki](http://turtlebot3.readthedocs.io/en/latest/)
   
+  ## Uploading the modifed openCR firmware
+  
   ## Setting the permission
   You should set the permission of some devices.
   To set commands are:
