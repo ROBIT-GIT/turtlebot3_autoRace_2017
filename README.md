@@ -1,12 +1,12 @@
 # Team ROBIT
   ## Introduction
   The Team ROBIT is a robot team of Kwangwoon University in Seoul, Republic of Korea. Team ROBIT has been established in November 2006. We have studied hardware and software of robot system. We also has participated in several domestic and international robot competitions. 
-  
-  ## turtlebot3_autoRace
 
   ## Overview
    This document describes the team ROBIT hardware and software setting for 2017 R-Biz challenge Turtlebot3 autonomous race.
-
+  ## Hardware platform
+   Turtlebot3: [turtlebot3 official wiki](http://turtlebot3.readthedocs.io/en/latest/)
+   
 
 # User's Guide
 
