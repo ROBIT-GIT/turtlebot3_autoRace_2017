@@ -29,7 +29,7 @@
   Turtlebot3 Wiki: [turtlebot3 official wiki](http://turtlebot3.readthedocs.io/en/latest/)
   
   ## Uploading the modifed openCR firmware
-  
+  This 'turtlebot3_core' package has been modified for the autonomous race. So you should upload this arduino sketch.
   
   ## Setting the permission
   You should set the permission of some devices.
@@ -85,7 +85,7 @@
   
       $ rosrun turtlevision turtlevision     
   
-  You can threshold a range of color in turtlevision node UI.
+  You can threshold the range of several color in turtlevision node UI and press the "save parameter" to save the range of color. If you press the "run" button, robot will start.
   
   ## Run turtlebot3 tunnel node
    Bring up basic packages to start TurtleBot3 applications.
