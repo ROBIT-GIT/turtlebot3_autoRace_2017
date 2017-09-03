@@ -80,6 +80,10 @@
    
       $ roslaunch usb_cam usb_cam-test.launch 
     
+  The turtlevision node use ROS qt UI. You should install ros-kinetic-qt. To install command is:
+  
+      $ sudo apt-get install ros-kinetic-qt-*
+    
   Execute turtlevision node.  
   
       $ rosrun turtlevision turtlevision     
