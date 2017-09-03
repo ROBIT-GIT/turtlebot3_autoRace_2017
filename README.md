@@ -6,6 +6,7 @@
    This document describes the team ROBIT hardware and software setting for 2017 R-Biz challenge Turtlebot3 autonomous race.
   ## Hardware platform
    Turtlebot3: [turtlebot3 official wiki](http://turtlebot3.readthedocs.io/en/latest/)
+   Usb camera: 
    
 
 # User's Guide
