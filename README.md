@@ -67,11 +67,11 @@
         </node>
       </launch>
   
-  To execute usb_cam node commands are:
+  Execute usb_cam node
    
       $ roslaunch usb_cam usb_cam-test.launch 
     
-  To execute turtlevision node commands are:  
+  Execute turtlevision node  
   
       $ rosrun turtlevision turtlevision
   
