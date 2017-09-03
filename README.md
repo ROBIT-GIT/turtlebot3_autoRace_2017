@@ -79,3 +79,7 @@
         
         $ roslaunch turtlebot3_bringup turtlebot3_lidar.launch
         $ roslaunch turtlebot3_bringup turtlebot3_core.launch
+        
+    Execute turtlebot3 tunnel node
+    
+        $ roslaunch turtlebot3_tunnel turtlebot3_tunnel.launch
