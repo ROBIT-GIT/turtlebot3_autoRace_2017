@@ -20,30 +20,24 @@
   ## Setting the permission
   You should set the permission of some devices
   To set commands are:
-    
     $ sudo chmod 777 /dev/video0
     $ sudo chmod 777 /dev/ttyUSB0
     $ sudo chmod 777 /dev/ttyACM0
-    
 
   ## Run robit master node
   To execute master node commands are:
-
     $ rosrun robit_master robit_master_node
     
   ## Run vision node
   We use ROS usb_cam package. Install the kinetic usb_cam package. 
   Reference link: http://wiki.ros.org/usb_cam
-  
        $ sudo apt-get install ros-kinetic-usb-cam
   
   You should edit launch file. 
-  
       $ cd /opt/ros/kinetic/share/usb_cam/launch/
       $ sudo gedit usb_cam-test.launch 
     
   Fill in this contents:
-    
       <launch>
         <node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >
           <param name="video_device" value="/dev/video0" />
@@ -65,6 +59,9 @@
       </launch>
   
   To execute usb_cam node commands are:
-    
     $ roslaunch usb_cam usb_cam-test.launch 
+    
+  To execute turtlevision node commands are:  
+    $ rosrun turtlevision turtlevision
+  
         
