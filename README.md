@@ -13,6 +13,10 @@
    
    Usb camera: Logitech Webcam HD Pro C920
    
+   <img src="http://shop1.phinf.naver.net/20170511_41/nmp_1494490738679tqETF_JPEG/11494418960286917_722889021.jpg" width="300">
+   
+   PC : NUC7i5BNK (RAM 4GB)
+   
 
 # User's Guide
 
