@@ -30,6 +30,7 @@
   
   ## Uploading the modifed openCR firmware
   
+  
   ## Setting the permission
   You should set the permission of some devices.
   To set commands are:
@@ -82,9 +83,9 @@
     
   Execute turtlevision node.  
   
-      $ rosrun turtlevision turtlevision
+      $ rosrun turtlevision turtlevision     
   
-   ### turtlevision node UI
+  You can threshold a range of color in turtlevision node UI.
   
   ## Run turtlebot3 tunnel node
    Bring up basic packages to start TurtleBot3 applications.
