@@ -25,7 +25,7 @@
     $ rosrun robit_master robit_master_node
     
   ## Run vision node
-  We use ROS usb_cam package. Install the usb_cam package. 
+  We use ROS usb_cam package. Install the kinetic usb_cam package. 
   Reference link: http://wiki.ros.org/usb_cam
   
     $ sudo apt-get install ros-kinetic-usb-cam
@@ -52,7 +52,7 @@
         </node>
       </launch>
   
-  To execute master node commands are:
+  To execute usb_cam node commands are:
     
     $ roslaunch usb_cam usb_cam-test.launch 
     
