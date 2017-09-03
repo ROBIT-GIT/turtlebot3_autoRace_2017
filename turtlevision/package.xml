@@ -7,11 +7,9 @@
      turtlevision
 
   </description>
-  <maintainer email="burger@gmail.com">burger</maintainer>
-  <author>burger</author>
-  <license>BSD</license>
-  <!-- <url type="bugtracker">https://github.com/stonier/qt_ros/issues</url> -->
-  <!-- <url type="repository">https://github.com/stonier/qt_ros</url> -->
+  <maintainer email="wgs010888@gmail.com">Jang youngjoon</maintainer>
+  <author>Jang youngjoon</author>
+  <license>Apache License 2.0</license>
 
   <buildtool_depend>catkin</buildtool_depend>
 
