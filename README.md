@@ -13,24 +13,19 @@
   ## Setting the permission
   You should set the permission of some devices
   To set commands are:
-  
-    ```
+    
     $ sudo chmod 777 /dev/video0
     $ sudo chmod 777 /dev/ttyUSB0
     $ sudo chmod 777 /dev/ttyACM0
-    ``` 
+    
 
   ## Run robit master node
   To execute master node commands are:
 
-    
     $ rosrun robit_master robit_master_node
     
-
   ## Run vision node
-
-
   To execute master node commands are:
-    ```
+    
     $ roslaunch usb_cam usb_cam-test.launch 
-    ```
+    
