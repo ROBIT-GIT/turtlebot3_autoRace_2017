@@ -30,7 +30,7 @@
     
       $ rosrun robit_master robit_master_node
     
-  ## Run vision node
+  ## Run turtlevision node
   We use ROS usb_cam package. Install the kinetic usb_cam package. 
   Reference link: http://wiki.ros.org/usb_cam
        
@@ -71,4 +71,5 @@
   
       $ rosrun turtlevision turtlevision
   
+  ## Run turtlebot3 tunnel node
         
