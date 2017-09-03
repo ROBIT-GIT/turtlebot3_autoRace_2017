@@ -30,7 +30,27 @@
   
     $ sudo apt-get install ros-kinetic-usb-cam
   
-  You should 
+  You should edit launch file. Fill in this contents:
+    <launch>
+      <node name="usb_cam" pkg="usb_cam" type="usb_cam_node" output="screen" >
+        <param name="video_device" value="/dev/video0" />
+        <param name="image_width" value="320" />
+        <param name="image_height" value="240" />
+        <param name="framerate" value="30" />
+        <param name="pixel_format" value="mjpeg" />
+        <param name="camera_frame_id" value="usb_cam" />
+        <param name="autoexposure" value="false" />
+        <param name="exposure" value="130" />
+        <param name="focus" value="1" />
+        <param name="brightness" value="130" />
+        <param name="contrast" value="100" />
+        <param name="saturation" value="100" />
+        <param name="auto_white_balance" value="false" />
+        <param name="white_balance" value="4800" />
+
+        <param name="io_method" value="mmap"/>
+      </node>
+    </launch>
   
   To execute master node commands are:
     
