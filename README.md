@@ -7,12 +7,8 @@
   ## Hardware platform
   <img src="https://raw.githubusercontent.com/ROBOTIS-GIT/ROBOTIS-Documents/master/wiki-images/Turtlebot3/Turtlebot3_logo.jpg" width="300">
   Turtlebot3: [turtlebot3 official wiki](http://turtlebot3.readthedocs.io/en/latest/)
-  
-   <img src="http://buyings.co.kr/shop/data/goods/1501522796_549003.m.jpg" width="300">
-   Usb camera: Logitech Webcam HD Pro C920
-   
-   <img src="http://shop1.phinf.naver.net/20170511_41/nmp_1494490738679tqETF_JPEG/11494418960286917_722889021.jpg" width="300">
-   PC : NUC7i5BNK (RAM 4GB)
+  Usb camera: Logitech Webcam HD Pro C920
+  PC : Intel NUC7i5BNK (RAM 4GB)
    
 # User's Guide
   ## Setting the default setting about turtlebot3
@@ -75,4 +71,11 @@
       $ rosrun turtlevision turtlevision
   
   ## Run turtlebot3 tunnel node
+    Bring up basic packages to start TurtleBot3 applications.
+    
+        $ roslaunch turtlebot3_bringup turtlebot3_robot.launch
+
+    If you want to launch Lidar sensor and core separately, please use below commands.
         
+        $ roslaunch turtlebot3_bringup turtlebot3_lidar.launch
+        $ roslaunch turtlebot3_bringup turtlebot3_core.launch
